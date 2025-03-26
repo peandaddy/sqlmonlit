@@ -2,6 +2,8 @@
 
 A modular, extensible, and production-ready `Streamlit` application for real-time monitoring of SQL Server instances. This dashboard fetches and displays key performance metrics (**CPU, Memory, TempDB, Disk, Backup, and Activity**) from multiple SQL Server instances, leveraging stored procedures for data retrieval.
 
+![](Demo.gif)
+
 ## Features
 - **Multi-Instance Support**: Monitor multiple SQL Server instances configured via `config.ini`.
 - **Real-Time Updates**: Auto-refresh every `60` seconds with a manual refresh option.
